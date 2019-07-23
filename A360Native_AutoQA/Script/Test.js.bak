@@ -1,0 +1,41 @@
+﻿//USEUNIT CommonFunctionLib
+//USEUNIT Hashtable
+
+ function ScriptName()
+{    
+    var ExcelPath_Driver
+    var ExcelPath_TestCase
+       
+        //To get Module name
+        var Mod_Name = value
+        var TC_ID = Project.TestItems.Current.Name
+                    
+          readExcelDataIntoProjectVariable("D:\\A360\\A360Native_AutoQA\\A360Native_AutoQA\\TestData\\TestDataSheet.xlsx","SELECT * FROM ["+Mod_Name+"$] WHERE Testcase_ID = '"+TC_ID+"'","sampleVariable");
+          //var TC_ID = Project.Variables.sampleVariable   ///Start from here..how to retrieve  from this sample variable table
+          for (i=1;i<= Project.Variables.sampleVariable.RowCount;i++){                          
+                      
+          var TC_ID=Project.Variables.VariableByName("TC_TestData").Testcase_ID(i)                                
+          var InData =  Project.Variables.VariableByName("TC_TestData").Input_Data(i)
+          var KW = Project.Variables.VariableByName("TC_TestData").Keyword(i)
+                      
+ 
+               try{ 
+/// steps to read data fro test data sheet
+                  }
+               catch (ex) {
+                    Log.Error("Error while reading data from testdata sheet");
+                    }
+                    
+                    } /// end for loop
+                    }//end function
+                    
+                    
+              
+                    
+                
+                                       
+                         
+                      
+
+ 
+

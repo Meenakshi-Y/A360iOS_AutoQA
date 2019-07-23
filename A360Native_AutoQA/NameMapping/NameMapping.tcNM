@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="1">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Mobile" Key="{FB702B46-2370-41FE-863C-1652B575A9F8}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Mobile" Type="5" />
+					</Property>
+					<Property Name="Id">
+						<Value PropertyType="0" Value="-1" Type="0" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Device" Key="{B487BF91-9D84-4A17-ADF7-257F96884BAC}" ParallelWalk="True">
+						<TypeInfo Item0="{06F45DEC-BD57-4395-BDE5-AB1EABF3FAFD}" />
+						<Properties>
+							<Property Name="OSType">
+								<Value PropertyType="0" Value="iOS" Type="5" />
+							</Property>
+							<Property Name="DeviceName">
+								<Value PropertyType="0" Value="*" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="processIa360" Key="{BBDB0F7C-4202-4DD7-9321-7D7E20E5B4A3}" ParallelWalk="True">
+								<TypeInfo Item0="{FF8C4880-C96E-4EAC-BB61-E93AA780E39C}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value PropertyType="0" Value="iA360 *" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Window0" Key="{F0AC2015-E7A0-4F02-A3CA-521982A27B63}" ParallelWalk="True">
+										<TypeInfo Item0="{83BD7AA6-AAAB-42CC-92BB-1F0B80C269BB}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Window" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="0" Type="0" />
+											</Property>
+											<Property Name="FullName">
+												<Value PropertyType="0" Value="Mobile.Device(&quot;*&quot;).Process(&quot;iA360 *&quot;).Window(0)" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NavigationBar" Key="{116CAA12-3F27-4133-9DB0-E7BE3C3D4F80}" ParallelWalk="True">
+												<TypeInfo Item0="{FEAF761A-DBFB-4D00-B35F-F1FC43695108}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="NavigationBar" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="labelAccounts" Key="{662BC3A4-B998-4727-96B2-315BEC2E0C79}" ParallelWalk="True">
+														<TypeInfo Item0="{C8E7B397-3D0C-42CE-99BB-50F67285C220}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Label" Type="5" />
+															</Property>
+															<Property Name="ObjectText">
+																<Value PropertyType="0" Value="Accounts" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="tableview0" Key="{69845F8A-6F91-4B1F-AAB4-3C070C28703A}" ParallelWalk="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="TableView" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tableviewcell00" Key="{9395793B-6A49-4F1B-AB61-6C0FAB0054E7}" ParallelWalk="True">
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="TableViewCell" Type="5" />
+															</Property>
+															<Property Name="wSection">
+																<Value PropertyType="0" Value="0" Type="0" />
+															</Property>
+															<Property Name="wItem">
+																<Value PropertyType="0" Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Device" Owner="{B487BF91-9D84-4A17-ADF7-257F96884BAC}">
+			<Child Name="processIa360" Owner="{BBDB0F7C-4202-4DD7-9321-7D7E20E5B4A3}">
+				<Child Name="Window0" Owner="{F0AC2015-E7A0-4F02-A3CA-521982A27B63}">
+					<Child Name="NavigationBar" Owner="{116CAA12-3F27-4133-9DB0-E7BE3C3D4F80}">
+						<Child Name="labelAccounts" Owner="{662BC3A4-B998-4727-96B2-315BEC2E0C79}" />
+					</Child>
+					<Child Name="tableview0" Owner="{69845F8A-6F91-4B1F-AAB4-3C070C28703A}">
+						<Child Name="tableviewcell00" Owner="{9395793B-6A49-4F1B-AB61-6C0FAB0054E7}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="0" />
+</Root>

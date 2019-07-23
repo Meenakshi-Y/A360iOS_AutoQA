@@ -1,0 +1,45 @@
+﻿//USEUNIT CommonFunctionLib
+//USEUNIT Hashtable
+
+function Module_ShortScriptDesc_TC_1()
+{    
+   
+    var ExcelPath_TestDataSheet
+       
+        //To get Module name
+        var Mod_Name = "Sign In"
+        var TestCase_ID = "Module_ShortScriptDesc_TC_1"
+                    
+          readExcelDataIntoProjectVariable(Excel_Path.ExcelPath_TestDataSheet,"SELECT * FROM ["+Mod_Name+"$] WHERE Testcase_ID = '"+TestCase_ID+"'","TC_TestData");
+          //var TC_ID = Project.Variables.sampleVariable   ///Start from here..how to retrieve  from this sample variable table
+          var i
+          for (i=0;i<= Project.Variables.TC_TestData.RowCount-1;i++){                          
+                      
+          var TC_ID=Project.Variables.TC_TestData.Item(Data_Hashtable.TestcaseID,i)
+          Log.Message(TC_ID)                                      
+          var InData =  Project.Variables.TC_TestData.Item(Data_Hashtable.InputData,i)
+          Log.Message(InData)      
+          var MSG = Project.Variables.TC_TestData.Item(Data_Hashtable.Msg,i)
+          Log.Message(MSG)
+              
+          try{ 
+           
+                  /// steps to read data fro test data sheet
+            }
+         catch (ex) {
+              Log.Error("Error while Executing testcase");
+            }
+                    
+           }/// end for loop
+}//end function
+                    
+                    
+              
+                    
+                
+                                       
+                         
+                      
+
+ 
+

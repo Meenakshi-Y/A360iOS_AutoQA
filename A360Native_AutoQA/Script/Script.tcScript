@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Go-Live">
+			<child name="GoLive_ViewSalesMaterial_TC_1" key="{91E658F2-060E-4621-AC98-ECE2B432726D}" path="GoLive_ViewSalesMaterial_TC_1.js" />
+		</folder>
+		<folder name="Gallo-Req">
+			<child name="Unit1" key="{A372F2BD-EDF9-48E7-B697-51AE455F19AB}" path="Unit1.js" />
+		</folder>
+		<child name="CommonFunctionLib" key="{65F6CB3F-237D-4FD0-ABC0-B3FBBECFF4F7}" path="CommonFunctionLib.js" />
+		<child name="Hashtable" key="{68FD817F-F998-44FF-B256-B605FE4A4DBF}" path="Hashtable.js" />
+		<child name="Module_ShortScriptDesc_TC_1" key="{1C27AF3A-602A-44D5-A67D-D455CC61DA64}" path="Module_ShortScriptDesc_TC_1.js" />
+	</children>
+</Root>

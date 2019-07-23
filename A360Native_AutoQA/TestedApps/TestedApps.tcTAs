@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{7EC9524D-9780-4903-80B6-0889CB723598}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{6C246638-452B-41AF-BDEC-C49B788E523A}">
+			<config nodeName="A360_StageTest" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="iOS">
+					<param name="iOS" parameters="" workFolder="" ipaFileName="D:\A360\A360Native_Builds\A360 StageTest.ipa" deploy="True" storeBackup="True" backupFileName="D:\A360\A360Native_Builds\A360 StageTest_ORIGINAL_BACKUP.ipa" rootCert="" devCert="" pemFile="" provisioningFile="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

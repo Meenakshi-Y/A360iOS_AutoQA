@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{1D434169-ABD8-4ABC-99AD-B39799B323CD}">
+	<children>
+		<child name="A360Native_AutoQA" key="{BF6B7F94-2CCF-43E4-AC54-2270FBBA3A18}" path="A360Native_AutoQA\A360Native_AutoQA.mds" />
+	</children>
+	<testItems key="{C3EEFCB6-FC06-4DCE-BE87-FBE32B6787AE}">
+		<children>
+			<testItem key="{BF6B7F94-2CCF-43E4-AC54-2270FBBA3A18}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{F0CAFEFD-0D6B-48F5-9095-42DA7C3AB7AF}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{F5F6B9FC-9D60-4888-8C17-50F4501213A9}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

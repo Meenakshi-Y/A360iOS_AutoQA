@@ -1,0 +1,158 @@
+﻿//USEUNIT CommonFunctionLib
+
+var Test_application =
+{
+  App          :       "Account360_Mobile_3Dec18"
+}
+
+var Login_Cred =
+{
+  UserWinery        :   "jigneshp",
+  PassWinery        :   "Admin360",
+  UnameSalesRep     :   "ksanghan",
+  PwdSalesRep       :   "Dev360",
+}
+
+
+
+var Data_Hashtable =
+{
+ //columns of Driver sheet
+ Exec_cond      :      "Execution_Condition",
+ TestDriverID   :      "TestCaseDriver_ID",
+ Mod            :      "Module_Name",
+ 
+ //columns of test case sheet
+  Module         :      "Module",
+  SubModule      :      "SubModule",
+  TestcaseID     :      "Testcase_ID",
+  Step_ID        :      "TestStep_ID",
+  Test_object    :      "ObjectName",
+  Test_object_2  :      "ObjectName2",
+  Test_object_3  :      "ObjectName3",
+  Keyword        :      "Keyword", 
+    
+ //Data columns
+ InputData      :      "Input_Data",
+ Time           :      "Time_ms" ,     
+ ExpectedResult :      "Exected_Result_Value",
+ Msg            :      "Log_Message",
+ Location       :      "Test_Location",
+ WaitObj        :      "Wait_Obj",  
+ PropName1      :      "PropName_1",	
+ PropName2      :      "PropName_2",
+ PropValue1     :      "PropValue_1",
+ PropValue2     :      "PropValue_2",
+ VarName        :      "Variable_Name",
+ Drag_X         :      "Drag_X",
+ Drag_Y         :      "Drag_Y",
+ Cell_X         :      "TableCell_X",
+ Cell_Y         :       "TableCell_Y",
+ Obj1           :      "Obj1",
+ Obj2           :      "Obj2",
+ Key            :      "Key",
+ User_Name      :      "User_Name",
+ Password       :      "Password"
+  
+ 
+  }
+  
+ //*************************************
+  
+ var Module_Name =
+{
+  
+  Sign               : "Sign In",
+  Menu               : "Menu Panel",
+  AccountList        : "Account List",
+  AccountTab         : "Account Tab - Account Details Screen",
+  ObjectivesTab      : "Objectives Tab - Account Details Screen",
+  SurveyTab          : "Surveys Tab - Account Details Screen",
+  DocumentsTab       : "Documents Tab - Account Details Screen",
+  PhotoTab           : "Photo Tab - Account Details Screen",
+  NotesTab           : "Notes Tab - Account Details Screen",
+  ManageContacts     : "Manage Contacts",
+  ManageObjectives   : "Manage Objectives",
+  ManageDocuments    : "Manage Documents",
+  ManageTagetList    : "Manage Target List",
+  PhotoRecap         : "Photo Recap",
+  CocktailReceipes   : "Cocktail Recipes",
+  PitchBook          : "Pitch Book",
+  GoLive             : "Go-Live Scripts"
+  
+}
+
+//***********************************************
+
+var Excel_Path =
+    {   
+  
+//    TestSheet1 : "D:\\A360_AutoQA\\TestData\\Test_Data_Sheet.xlsx",
+//    ExcelPath  : "E:\\A360\\A360_Automation\\TestData\\A360_2.0-Test_Data_Sheet.xlsx"
+
+   ExcelPath_TestDataSheet: "D:\\A360\\A360Native_AutoQA\\A360Native_AutoQA\\TestData\\TestDataSheet.xlsx"
+    
+    }
+    
+//**************************************************
+    
+    var Objprop =
+{
+ 
+   ObjType     : "ObjectType",
+    Caption     : "Caption",
+    ID          : "Id",
+    ObjName     : "Name",
+    Identifier  : "ObjectIdentifier",
+    Label       : "ObjectLabel",
+    State       : "State",
+    GrpIndex    : "ObjectGroupIndex",
+    WndCaption  : "WndCaption",
+    WndClass    : "WndClass",
+    ObjText     : "ObjectText",
+    ObjClassName  : "ObjectClassName"
+    
+   
+}
+//*********************************************************
+
+var ObjpropVal =
+{
+    Win                  : "Window",
+    Yes                  : "Yes",
+    Label                : "Label",
+    Alertform            : "AlertForm",
+    UIWindow             : "UIWindow",
+    ActionView           : "ActionView",
+    AlertView            : "AlertView",
+    
+    
+
+}
+//******************************************************
+
+var Index_value = 
+{
+    wild      : "*",
+    zero      : 0,
+    one       : 1,
+    two       : 2,
+    three     : 3,
+    four      : 4,
+    five      : 5,
+    six       : 6,
+    seven     : 7,
+    eight     : 8,
+    nine      : 9,
+    ten       : 10,
+    eleven    : 11,
+    twelve    : 12,
+    thirteen  : 13,
+    fourteen  : 14,
+    fifteen   : 15,
+    seventeen : 17,
+    eighteen  : 18,
+    fortythree: 43,
+    eighty    : 80
+    
+}
